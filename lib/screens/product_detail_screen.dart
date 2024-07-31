@@ -44,14 +44,14 @@ class ProductDetailScreen extends StatelessWidget {
               style: const TextStyle(fontSize: 16),
             ),
             const Spacer(),
-            ElevatedButton(
-              onPressed: () {
-              },
-              style: ElevatedButton.styleFrom(
-                minimumSize: const Size(double.infinity, 50),
-              ),
-              child: const Text('Order Now'),
-            ),
+            // ElevatedButton(
+            //   onPressed: () {
+            //   },
+            //   style: ElevatedButton.styleFrom(
+            //     minimumSize: const Size(double.infinity, 50),
+            //   ),
+            //   child: const Text('Order Now'),
+            // ),
           ],
         ),
       ),
